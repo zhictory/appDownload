@@ -1,0 +1,50 @@
+// App下载提示
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.app-download {
+  margin: 0 auto;
+  width: 7.5rem;
+  height: 1rem;
+  background: url("./img/app-download-bg.png");
+  background-color: #333;
+  background-size: 100% 1rem;
+  .close {
+    float: right;
+    margin-right: .2rem;
+    width: .5rem;
+    height: 1rem;
+    line-height: 1rem;
+    color: #fff;
+    font-size: .24rem;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    cursor: pointer;
+    &:after {
+      font-size: .3rem;
+    }
+  }
+  .open {
+    float: right;
+    margin-right: .7rem;
+    margin-top: .2rem;
+    width: 1.7rem;
+    height: .6rem;
+    border-radius: 2px;
+    background: #f60;
+    color: #fff;
+    font-size: .24rem;
+    line-height: .6rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
